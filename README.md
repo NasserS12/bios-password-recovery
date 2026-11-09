@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/1a24f896-5926-493b-b5e4-e568452bd8ad
+
 # BIOS Power-On Password Removal via SPI Flash Analysis
 
 Removing a forgotten BIOS power-on password from an ASUS laptop by dumping its
