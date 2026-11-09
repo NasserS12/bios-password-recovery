@@ -20,10 +20,7 @@ and reflashing — all without a soldering iron.
 | Flash chip | GigaDevice **GD25Q64(B)** — 8 MB (8192 KB), SPI, SOP8 (208 mil) |
 | Lock type | BIOS **Power-On password** (prompt appears before boot) |
 
-
-https://github.com/user-attachments/assets/8b7660dc-6561-4bbb-86f7-ebc90d8c963a
-
-d.jpg)
+![X507UBR mainboard](images/mainboard.jpeg)
 
 ---
 
@@ -42,6 +39,10 @@ Three independent security layers are worth separating:
    never encrypted.)*
 
 Because only layer 1 was active, the fix is firmware-level: edit the flash contents.
+
+![BIOS password prompt](images/enter-password.jpeg)
+
+*Recreation of the BIOS password prompt that blocked boot.*
 
 ---
 
@@ -65,6 +66,7 @@ standard clip.
 > Lesson: don't assume the first 8-pin chip is the BIOS. Read the marking; the BIOS flash
 > is a `25`-series part.
 
+![BIOS flash chip — GD25Q64](images/bios-chip.jpeg)
 
 ### 2. Dump the flash (twice) and verify
 ```bash
@@ -126,8 +128,6 @@ sudo flashrom -p ch341a_spi -w cleaned.bin
 ```
 
 Reassemble, power on → **boots straight through with no password prompt.**
-
-> 📹 Demo of the first successful boot: `images/demo.mp4`
 
 ---
 
