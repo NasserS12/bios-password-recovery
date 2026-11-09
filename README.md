@@ -130,7 +130,26 @@ sudo flashrom -p ch341a_spi -w cleaned.bin
 # ... Verifying flash... VERIFIED.
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
 https://github.com/user-attachments/assets/2a67c8c3-c435-47f8-9afe-84c9340795a5
+
+
+
+
+
+
+
 
 
 
