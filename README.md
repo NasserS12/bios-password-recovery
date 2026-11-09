@@ -132,6 +132,8 @@ sudo flashrom -p ch341a_spi -w cleaned.bin
 
 https://github.com/user-attachments/assets/2a67c8c3-c435-47f8-9afe-84c9340795a5
 
+
+
 Reassemble, power on → **boots straight through with no password prompt.**
 
 ![Laptop booting with no password](images/boot-success.jpeg)
