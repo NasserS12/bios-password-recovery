@@ -1,3 +1,6 @@
+
+
+
 # BIOS Power-On Password Removal via SPI Flash Analysis
 
 Removing a forgotten BIOS power-on password from an ASUS laptop by dumping its
@@ -126,6 +129,8 @@ byte-identical to the original.
 sudo flashrom -p ch341a_spi -w cleaned.bin
 # ... Verifying flash... VERIFIED.
 ```
+
+https://github.com/user-attachments/assets/2a67c8c3-c435-47f8-9afe-84c9340795a5
 
 Reassemble, power on → **boots straight through with no password prompt.**
 
