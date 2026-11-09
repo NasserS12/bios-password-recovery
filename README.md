@@ -20,7 +20,11 @@ and reflashing — all without a soldering iron.
 | Flash chip | GigaDevice **GD25Q64(B)** — 8 MB (8192 KB), SPI, SOP8 (208 mil) |
 | Lock type | BIOS **Power-On password** (prompt appears before boot) |
 
-![X507UBR mainboard](images/mainboard.jpg)
+![X507UBR mainboard](images/mainboar
+
+https://github.com/user-attachments/assets/8b7660dc-6561-4bbb-86f7-ebc90d8c963a
+
+d.jpg)
 
 ---
 
