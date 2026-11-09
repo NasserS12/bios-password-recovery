@@ -65,7 +65,6 @@ standard clip.
 > Lesson: don't assume the first 8-pin chip is the BIOS. Read the marking; the BIOS flash
 > is a `25`-series part.
 
-![BIOS flash chip — GD25Q64](images/bios-chip.jpg)
 
 ### 2. Dump the flash (twice) and verify
 ```bash
